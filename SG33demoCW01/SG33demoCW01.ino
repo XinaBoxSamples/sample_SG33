@@ -1,8 +1,8 @@
-#include <xCore.h>
-#include <xOD01.h>
+#include <xCore.h> //find @ https://github.com/xinabox/xCore
+#include <xOD01.h> //find @ https://github.com/xinabox/xOD01
 #include <ESP8266WiFi.h>
 #include "TIMER_CTRL.h"
-#include "Adafruit_CCS811.h"
+#include "Adafruit_CCS811.h" //find @ https://github.com/adafruit/Adafruit_CCS811
 
 Adafruit_CCS811 ccs;
 unsigned long currentMilli = 0;
